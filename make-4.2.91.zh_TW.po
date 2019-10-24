@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: make 4.2.91\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2019-09-16 08:26-0400\n"
-"PO-Revision-Date: 2019-10-24 21:39+0800\n"
+"PO-Revision-Date: 2019-10-24 21:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -38,12 +38,12 @@ msgstr "VMS 系統上不支援 touch 封存成員"
 #: src/ar.c:147
 #, c-format
 msgid "touch: Archive '%s' does not exist"
-msgstr "touch：封存文件「%s」不存在"
+msgstr "touch：封存檔案「%s」不存在"
 
 #: src/ar.c:150
 #, c-format
 msgid "touch: '%s' is not a valid archive"
-msgstr "touch：「%s」不是合法的封存文件"
+msgstr "touch：「%s」不是合法的封存檔案"
 
 #: src/ar.c:157
 #, c-format
@@ -112,12 +112,12 @@ msgstr "*** 封存成員「%s」可能是假的；未刪除"
 #: src/commands.c:646
 #, c-format
 msgid "*** [%s] Deleting file '%s'"
-msgstr "*** [%s] 正在刪除文件「%s」"
+msgstr "*** [%s] 正在刪除檔案「%s」"
 
 #: src/commands.c:648
 #, c-format
 msgid "*** Deleting file '%s'"
-msgstr "*** 正在刪除文件「%s」"
+msgstr "*** 正在刪除檔案「%s」"
 
 #: src/commands.c:684
 msgid "#  recipe to execute"
@@ -179,7 +179,7 @@ msgstr "無"
 
 #: src/dir.c:1145 src/dir.c:1166
 msgid " files, "
-msgstr " 文件， "
+msgstr " 檔案， "
 
 #: src/dir.c:1147 src/dir.c:1168
 msgid "no"
@@ -211,17 +211,17 @@ msgstr "未終止的變數引用"
 #: src/file.c:278
 #, c-format
 msgid "Recipe was specified for file '%s' at %s:%lu,"
-msgstr "關於文件「%s」的指令配方在 %s:%lu 處指定，"
+msgstr "關於檔案「%s」的指令配方在 %s:%lu 處指定，"
 
 #: src/file.c:283
 #, c-format
 msgid "Recipe for file '%s' was found by implicit rule search,"
-msgstr "關於文件「%s」的指令配方透過隱含規則搜尋而找到，"
+msgstr "關於檔案「%s」的指令配方透過隱含規則搜尋而找到，"
 
 #: src/file.c:287
 #, c-format
 msgid "but '%s' is now considered the same file as '%s'."
-msgstr "但「%s」現在被看做「%s」的同一個文件。"
+msgstr "但「%s」現在被看做「%s」的同一個檔案。"
 
 #: src/file.c:290
 #, c-format
@@ -241,12 +241,12 @@ msgstr "無法將雙冒號「%s」重新命名為單冒號「%s」"
 #: src/file.c:408
 #, c-format
 msgid "*** Deleting intermediate file '%s'"
-msgstr "*** 正在刪除中間文件「%s」"
+msgstr "*** 正在刪除中間檔案「%s」"
 
 #: src/file.c:412
 #, c-format
 msgid "Removing intermediate files...\n"
-msgstr "正在刪除中間文件...\n"
+msgstr "正在刪除中間檔案...\n"
 
 #: src/file.c:821
 msgid "Current time"
@@ -263,7 +263,7 @@ msgstr "# 不是一個目標："
 
 #: src/file.c:970
 msgid "#  Precious file (prerequisite of .PRECIOUS)."
-msgstr "#  重要文件 (.PRECIOUS的前提)。"
+msgstr "#  重要檔案 (.PRECIOUS的前提)。"
 
 #: src/file.c:972
 msgid "#  Phony target (prerequisite of .PHONY)."
@@ -296,7 +296,7 @@ msgstr "#  隱含/靜態模式主幹：「%s」\n"
 
 #: src/file.c:985
 msgid "#  File is an intermediate prerequisite."
-msgstr "#  文件是一個中間前提。"
+msgstr "#  檔案是一個中間前提。"
 
 #: src/file.c:989
 msgid "#  Also makes:"
@@ -308,11 +308,11 @@ msgstr "#  從不檢查修改時間。"
 
 #: src/file.c:997
 msgid "#  File does not exist."
-msgstr "#  文件不存在。"
+msgstr "#  檔案不存在。"
 
 #: src/file.c:999
 msgid "#  File is very old."
-msgstr "#  文件非常陳舊。"
+msgstr "#  檔案非常陳舊。"
 
 #: src/file.c:1004
 #, c-format
@@ -321,11 +321,11 @@ msgstr "#  最近更新 %s\n"
 
 #: src/file.c:1007
 msgid "#  File has been updated."
-msgstr "#  文件已經被更新。"
+msgstr "#  檔案已經被更新。"
 
 #: src/file.c:1007
 msgid "#  File has not been updated."
-msgstr "#  文件尚未被更新。"
+msgstr "#  檔案尚未被更新。"
 
 #: src/file.c:1011
 msgid "#  Recipe currently running (THIS IS A BUG)."
@@ -357,7 +357,7 @@ msgid ""
 "# Files"
 msgstr ""
 "\n"
-"# 文件"
+"# 檔案"
 
 #: src/file.c:1058
 msgid ""
@@ -366,7 +366,7 @@ msgid ""
 "# "
 msgstr ""
 "\n"
-"# 文件雜湊表狀態:\n"
+"# 檔案雜湊表狀態:\n"
 "# "
 
 #: src/file.c:1068
@@ -450,7 +450,7 @@ msgstr "read：%s：%s"
 #: src/function.c:2281
 #, c-format
 msgid "file: invalid file operation: %s"
-msgstr "file：無效文件（file）操作：%s"
+msgstr "file：無效檔案（file）操作：%s"
 
 #: src/function.c:2396
 #, c-format
@@ -630,7 +630,7 @@ msgstr "前提「%s」在 VPATH「%s」中發現\n"
 #: src/implicit.c:765
 #, c-format
 msgid "Looking for a rule with intermediate file '%s'.\n"
-msgstr "正在尋找包含中間文件「%s」的規則。\n"
+msgstr "正在尋找包含中間檔案「%s」的規則。\n"
 
 #: src/job.c:370
 msgid "Cannot create a temporary file\n"
@@ -681,7 +681,7 @@ msgstr "正在中止失敗的子進程 %p PID %s %s\n"
 #: src/job.c:953
 #, c-format
 msgid "Cleaning up temp batch file %s\n"
-msgstr "正在清除臨時批文件 %s\n"
+msgstr "正在清除臨時批檔案 %s\n"
 
 #: src/job.c:959
 #, c-format
@@ -725,7 +725,7 @@ msgstr "獲得至進程 %p (%s) 的標記。\n"
 #: src/job.c:1903
 #, c-format
 msgid "%s: target '%s' does not exist"
-msgstr "%s: 目標文件「%s」不存在"
+msgstr "%s: 目標檔案「%s」不存在"
 
 #: src/job.c:1906
 #, c-format
@@ -744,17 +744,17 @@ msgstr "無法實施負載限制："
 #: src/job.c:2190
 #, c-format
 msgid "no more file handles: could not duplicate stdin\n"
-msgstr "沒有剩餘的文件句柄: 無法複製標準輸入\n"
+msgstr "沒有剩餘的檔案句柄: 無法複製標準輸入\n"
 
 #: src/job.c:2202
 #, c-format
 msgid "no more file handles: could not duplicate stdout\n"
-msgstr "沒有剩餘的文件句柄: 無法複製標準輸出\n"
+msgstr "沒有剩餘的檔案句柄: 無法複製標準輸出\n"
 
 #: src/job.c:2216
 #, c-format
 msgid "no more file handles: could not duplicate stderr\n"
-msgstr "沒有剩餘的文件句柄: 無法複製標準錯誤\n"
+msgstr "沒有剩餘的檔案句柄: 無法複製標準錯誤\n"
 
 #: src/job.c:2231
 #, c-format
@@ -789,7 +789,7 @@ msgstr "$SHELL 已改變 (原為「%s」，現為「%s」)\n"
 #: src/job.c:3289 src/job.c:3474
 #, c-format
 msgid "Creating temporary batch file %s\n"
-msgstr "正在建立臨時批文件 %s\n"
+msgstr "正在建立臨時批檔案 %s\n"
 
 #: src/job.c:3297
 #, c-format
@@ -889,8 +889,8 @@ msgid ""
 "  -f FILE, --file=FILE, --makefile=FILE\n"
 "                              Read FILE as a makefile.\n"
 msgstr ""
-"  -f 文件, --file=文件, --makefile=文件\n"
-"                              從 <文件> 中讀入 makefile。\n"
+"  -f 檔案, --file=檔案, --makefile=檔案\n"
+"                              從 <檔案> 中讀入 makefile。\n"
 
 #: src/main.c:355
 msgid "  -h, --help                  Print this message and exit.\n"
@@ -947,8 +947,8 @@ msgid ""
 "                              Consider FILE to be very old and don't remake"
 " it.\n"
 msgstr ""
-"  -o 文件, --old-file=文件, --assume-old=文件\n"
-"                              將 <文件> 當做很舊，不必重新製作。\n"
+"  -o 檔案, --old-file=檔案, --assume-old=檔案\n"
+"                              將 <檔案> 當做很舊，不必重新製作。\n"
 
 #: src/main.c:377
 msgid ""
@@ -1019,8 +1019,8 @@ msgid ""
 "  -W FILE, --what-if=FILE, --new-file=FILE, --assume-new=FILE\n"
 "                              Consider FILE to be infinitely new.\n"
 msgstr ""
-"  -W 文件, --what-if=文件, --new-file=文件, --assume-new=文件\n"
-"                              將 <文件> 當做最新。\n"
+"  -W 檔案, --what-if=檔案, --new-file=檔案, --assume-new=檔案\n"
+"                              將 <檔案> 當做最新。\n"
 
 #: src/main.c:408
 msgid ""
@@ -1373,7 +1373,7 @@ msgstr "內部錯誤：非法 --jobserver-auth 驗證字串「%s」"
 #: src/posixos.c:122
 #, c-format
 msgid "Jobserver client (fds %d,%d)\n"
-msgstr "Jobserver 用戶端（文件描述符 %d,%d）\n"
+msgstr "Jobserver 用戶端（檔案描述符 %d,%d）\n"
 
 #: src/posixos.c:138
 msgid "jobserver pipeline"
@@ -1555,7 +1555,7 @@ msgstr "目標「%s」不匹配目標模式"
 #: src/read.c:2122 src/read.c:2168
 #, c-format
 msgid "target file '%s' has both : and :: entries"
-msgstr "目標文件「%s」含有 : 和 :: 兩種條目"
+msgstr "目標檔案「%s」含有 : 和 :: 兩種條目"
 
 #: src/read.c:2128
 #, c-format
@@ -1600,7 +1600,7 @@ msgstr "「%s」已是最新。"
 #: src/remake.c:323
 #, c-format
 msgid "Pruning file '%s'.\n"
-msgstr "正刪除文件「%s」。\n"
+msgstr "正刪除檔案「%s」。\n"
 
 #: src/remake.c:389
 #, c-format
@@ -1615,38 +1615,38 @@ msgstr "%s沒有規則可製作目標「%s」%s"
 #: src/remake.c:425
 #, c-format
 msgid "Considering target file '%s'.\n"
-msgstr "正在考慮目標文件「%s」。\n"
+msgstr "正在考慮目標檔案「%s」。\n"
 
 #: src/remake.c:432
 #, c-format
 msgid "Recently tried and failed to update file '%s'.\n"
-msgstr "最近已嘗試過更新文件「%s」並失敗。\n"
+msgstr "最近已嘗試過更新檔案「%s」並失敗。\n"
 
 #: src/remake.c:444
 #, c-format
 msgid "File '%s' was considered already.\n"
-msgstr "已考慮過文件「%s」。\n"
+msgstr "已考慮過檔案「%s」。\n"
 
 #: src/remake.c:454
 #, c-format
 msgid "Still updating file '%s'.\n"
-msgstr "仍然在更新文件「%s」。\n"
+msgstr "仍然在更新檔案「%s」。\n"
 
 #: src/remake.c:457
 #, c-format
 msgid "Finished updating file '%s'.\n"
-msgstr "更新文件「%s」完成。\n"
+msgstr "更新檔案「%s」完成。\n"
 
 #: src/remake.c:486
 #, c-format
 msgid "File '%s' does not exist.\n"
-msgstr "文件「%s」不存在。\n"
+msgstr "檔案「%s」不存在。\n"
 
 #: src/remake.c:494
 #, c-format
 msgid ""
 "*** Warning: .LOW_RESOLUTION_TIME file '%s' has a high resolution time stamp"
-msgstr "*** 警告: .LOW_RESOLUTION_TIME 文件 `%s' 有一個高精度的的時間標誌"
+msgstr "*** 警告: .LOW_RESOLUTION_TIME 檔案 `%s' 有一個高精度的的時間標誌"
 
 #: src/remake.c:507 src/remake.c:1039
 #, c-format
@@ -1671,7 +1671,7 @@ msgstr "放棄循環依賴 %s <- %s 。"
 #: src/remake.c:674
 #, c-format
 msgid "Finished prerequisites of target file '%s'.\n"
-msgstr "目標文件「%s」的前提已完成。\n"
+msgstr "目標檔案「%s」的前提已完成。\n"
 
 #: src/remake.c:680
 #, c-format
@@ -1681,7 +1681,7 @@ msgstr "正在製作「%s」的前提。\n"
 #: src/remake.c:694
 #, c-format
 msgid "Giving up on target file '%s'.\n"
-msgstr "放棄目標文件「%s」。\n"
+msgstr "放棄目標檔案「%s」。\n"
 
 #: src/remake.c:699
 #, c-format
@@ -1751,17 +1751,17 @@ msgstr "「%s」的指令配方正在被執行。\n"
 #: src/remake.c:846
 #, c-format
 msgid "Failed to remake target file '%s'.\n"
-msgstr "重新製作目標文件「%s」失敗。\n"
+msgstr "重新製作目標檔案「%s」失敗。\n"
 
 #: src/remake.c:849
 #, c-format
 msgid "Successfully remade target file '%s'.\n"
-msgstr "重新製作目標文件「%s」成功。\n"
+msgstr "重新製作目標檔案「%s」成功。\n"
 
 #: src/remake.c:852
 #, c-format
 msgid "Target file '%s' needs to be remade under -q.\n"
-msgstr "目標文件「%s」需要以 -q 選項重新製作。\n"
+msgstr "目標檔案「%s」需要以 -q 選項重新製作。\n"
 
 #: src/remake.c:1047
 #, c-format
@@ -1771,7 +1771,7 @@ msgstr "使用關於「%s」的預設指令。\n"
 #: src/remake.c:1422
 #, c-format
 msgid "Warning: File '%s' has modification time %s s in the future"
-msgstr "警告：文件「%s」的修改時間在未來 %s 秒後"
+msgstr "警告：檔案「%s」的修改時間在未來 %s 秒後"
 
 #: src/remake.c:1662
 #, c-format
