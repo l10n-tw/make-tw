@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: make 4.2.91\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2019-09-16 08:26-0400\n"
-"PO-Revision-Date: 2019-10-24 21:41+0800\n"
+"PO-Revision-Date: 2019-10-24 21:55+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -92,7 +92,7 @@ msgstr "  uid = %d，gid = %d，mode = 0%o。\n"
 #: src/commands.c:403
 #, c-format
 msgid "Recipe has too many lines (%ud)"
-msgstr "指令配方行數太多 (%ud)"
+msgstr "指令方案行數太多 (%ud)"
 
 #: src/commands.c:504
 msgid "*** Break.\n"
@@ -121,7 +121,7 @@ msgstr "*** 正在刪除檔案「%s」"
 
 #: src/commands.c:684
 msgid "#  recipe to execute"
-msgstr "#  要執行的配方"
+msgstr "#  要執行的方案"
 
 #: src/commands.c:687
 msgid " (built-in):"
@@ -143,7 +143,7 @@ msgstr ""
 #: src/dir.c:1085
 #, c-format
 msgid "# %s: could not be stat'd.\n"
-msgstr "# %s：無法對其進行 stat 操作。\n"
+msgstr "# %s：無法對其進行 stat 動作。\n"
 
 #: src/dir.c:1089
 msgid "# %s (key %s, mtime %I64u): could not be opened.\n"
@@ -211,12 +211,12 @@ msgstr "未終止的變數引用"
 #: src/file.c:278
 #, c-format
 msgid "Recipe was specified for file '%s' at %s:%lu,"
-msgstr "關於檔案「%s」的指令配方在 %s:%lu 處指定，"
+msgstr "關於檔案「%s」的指令方案在 %s:%lu 處指定，"
 
 #: src/file.c:283
 #, c-format
 msgid "Recipe for file '%s' was found by implicit rule search,"
-msgstr "關於檔案「%s」的指令配方透過隱含規則搜尋而找到，"
+msgstr "關於檔案「%s」的指令方案透過隱含規則搜尋而找到，"
 
 #: src/file.c:287
 #, c-format
@@ -226,7 +226,7 @@ msgstr "但「%s」現在被看做「%s」的同一個檔案。"
 #: src/file.c:290
 #, c-format
 msgid "Recipe for '%s' will be ignored in favor of the one for '%s'."
-msgstr "「%s」的指令配方被忽略，轉而使用「%s」的。"
+msgstr "「%s」的指令方案被忽略，轉而使用「%s」的。"
 
 #: src/file.c:310
 #, c-format
@@ -263,15 +263,15 @@ msgstr "# 不是一個目標："
 
 #: src/file.c:970
 msgid "#  Precious file (prerequisite of .PRECIOUS)."
-msgstr "#  重要檔案 (.PRECIOUS的前提)。"
+msgstr "#  重要檔案 (.PRECIOUS 的前提)。"
 
 #: src/file.c:972
 msgid "#  Phony target (prerequisite of .PHONY)."
-msgstr "#  假目標 (.PHONY的前提)。"
+msgstr "#  假目標 (.PHONY 的前提)。"
 
 #: src/file.c:974
 msgid "#  Command line target."
-msgstr "#  命令列目標。"
+msgstr "#  指令列目標。"
 
 #: src/file.c:976
 msgid "#  A default, MAKEFILES, or -include/sinclude makefile."
@@ -329,11 +329,11 @@ msgstr "#  檔案尚未被更新。"
 
 #: src/file.c:1011
 msgid "#  Recipe currently running (THIS IS A BUG)."
-msgstr "#  正在執行的配方 (這是 BUG)。"
+msgstr "#  正在執行的方案 (這是 BUG)。"
 
 #: src/file.c:1014
 msgid "#  Dependencies recipe running (THIS IS A BUG)."
-msgstr "#  正在執行的依賴性配方 (這是 BUG)。"
+msgstr "#  正在執行的依賴性方案 (這是 BUG)。"
 
 #: src/file.c:1023
 msgid "#  Successfully updated."
@@ -415,7 +415,7 @@ msgstr "windows32_openpipe(): process_init_fd() 失敗\n"
 #: src/function.c:1857
 #, c-format
 msgid "Cleaning up temporary batch file %s\n"
-msgstr "正在清除臨時批次檔 %s\n"
+msgstr "正在清除暫時批次檔 %s\n"
 
 #: src/function.c:2221 src/function.c:2246
 #, c-format
@@ -450,7 +450,7 @@ msgstr "read：%s：%s"
 #: src/function.c:2281
 #, c-format
 msgid "file: invalid file operation: %s"
-msgstr "file：無效檔案（file）操作：%s"
+msgstr "file：無效檔案（file）動作：%s"
 
 #: src/function.c:2396
 #, c-format
@@ -525,12 +525,12 @@ msgstr "%s：無法識別的選項「%c%s」\n"
 #: src/getopt.c:764
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s：非法選項 -- %c\n"
+msgstr "%s：無效選項 -- %c\n"
 
 #: src/getopt.c:767
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s：非法選項 -- %c\n"
+msgstr "%s：無效選項 -- %c\n"
 
 #: src/getopt.c:797 src/getopt.c:927
 #, c-format
@@ -550,7 +550,7 @@ msgstr "%s：選項「-W %s」不允許給出參數\n"
 #: src/guile.c:58
 #, c-format
 msgid "guile: Expanding '%s'\n"
-msgstr "guile: 正擴展 '%s'\n"
+msgstr "guile: 正展開 '%s'\n"
 
 #: src/guile.c:74
 #, c-format
@@ -600,7 +600,7 @@ msgstr "主幹太長：'%.*s'.\n"
 #: src/implicit.c:491
 #, c-format
 msgid "Trying pattern rule with stem '%.*s'.\n"
-msgstr "用主幹「%.*s」嘗試匹配模式規則。\n"
+msgstr "用主幹「%.*s」嘗試符合模式規則。\n"
 
 #: src/implicit.c:697
 #, c-format
@@ -638,7 +638,7 @@ msgstr "無法建立暫存檔\n"
 
 #: src/job.c:548
 msgid " (core dumped)"
-msgstr " (core dumped)"
+msgstr " (已傾印核心)"
 
 #: src/job.c:553
 msgid " (ignored)"
@@ -661,47 +661,47 @@ msgstr "*** 正在等待未完成的任務...."
 #: src/job.c:707
 #, c-format
 msgid "Live child %p (%s) PID %s %s\n"
-msgstr "活躍子進程 %p (%s) PID %s %s\n"
+msgstr "活躍子程序 %p (%s) PID %s %s\n"
 
 #: src/job.c:709 src/job.c:903 src/job.c:1075 src/job.c:1647
 #, c-format
 msgid " (remote)"
-msgstr " (遠程)"
+msgstr " (遠端)"
 
 #: src/job.c:901
 #, c-format
 msgid "Reaping winning child %p PID %s %s\n"
-msgstr "正在中止獲勝的子進程 %p PID %s %s\n"
+msgstr "正在中止獲勝的子程序 %p PID %s %s\n"
 
 #: src/job.c:902
 #, c-format
 msgid "Reaping losing child %p PID %s %s\n"
-msgstr "正在中止失敗的子進程 %p PID %s %s\n"
+msgstr "正在中止失敗的子程序 %p PID %s %s\n"
 
 #: src/job.c:953
 #, c-format
 msgid "Cleaning up temp batch file %s\n"
-msgstr "正在清除臨時批檔案 %s\n"
+msgstr "正在清除暫時批次檔 %s\n"
 
 #: src/job.c:959
 #, c-format
 msgid "Cleaning up temp batch file %s failed (%d)\n"
-msgstr "清理臨時批次檔 %s 失敗 (%d)\n"
+msgstr "清理暫時批次檔 %s 失敗 (%d)\n"
 
 #: src/job.c:1074
 #, c-format
 msgid "Removing child %p PID %s%s from chain.\n"
-msgstr "從鏈中刪除子進程 %p PID %s%s。\n"
+msgstr "從鏈中刪除子程序 %p PID %s%s。\n"
 
 #: src/job.c:1123
 #, c-format
 msgid "Released token for child %p (%s).\n"
-msgstr "為子進程 %p (%s) 釋放令牌 (token)。\n"
+msgstr "為子程序 %p (%s) 釋放憑證 (token)。\n"
 
 #: src/job.c:1578 src/job.c:2477
 #, c-format
 msgid "process_easy() failed to launch process (e=%ld)\n"
-msgstr "process_easy() 啟動進程失敗 (e=%ld)\n"
+msgstr "process_easy() 啟動處理程序失敗 (e=%ld)\n"
 
 #: src/job.c:1582 src/job.c:2481
 #, c-format
@@ -715,12 +715,12 @@ msgstr ""
 #: src/job.c:1645
 #, c-format
 msgid "Putting child %p (%s) PID %s%s on the chain.\n"
-msgstr "將子進程 %p (%s) PID %s%s 放入鏈。\n"
+msgstr "將子程序 %p (%s) PID %s%s 放入鏈。\n"
 
 #: src/job.c:1876
 #, c-format
 msgid "Obtained token for child %p (%s).\n"
-msgstr "獲得至進程 %p (%s) 的標記。\n"
+msgstr "取得至處理程序 %p (%s) 的標記。\n"
 
 #: src/job.c:1903
 #, c-format
@@ -744,17 +744,17 @@ msgstr "無法實施負載限制："
 #: src/job.c:2190
 #, c-format
 msgid "no more file handles: could not duplicate stdin\n"
-msgstr "沒有剩餘的檔案句柄: 無法複製標準輸入\n"
+msgstr "沒有剩餘的檔案處理器: 無法複製標準輸入\n"
 
 #: src/job.c:2202
 #, c-format
 msgid "no more file handles: could not duplicate stdout\n"
-msgstr "沒有剩餘的檔案句柄: 無法複製標準輸出\n"
+msgstr "沒有剩餘的檔案處理器: 無法複製標準輸出\n"
 
 #: src/job.c:2216
 #, c-format
 msgid "no more file handles: could not duplicate stderr\n"
-msgstr "沒有剩餘的檔案句柄: 無法複製標準錯誤\n"
+msgstr "沒有剩餘的檔案處理器: 無法複製標準錯誤\n"
 
 #: src/job.c:2231
 #, c-format
@@ -774,7 +774,7 @@ msgstr "無法還原標準錯誤\n"
 #: src/job.c:2510
 #, c-format
 msgid "make reaped child pid %s, still waiting for pid %s\n"
-msgstr "make 已中止的子進程 pid %s，仍在等待 pid %s\n"
+msgstr "make 已中止的子程序 pid %s，仍在等待 pid %s\n"
 
 #: src/job.c:2613
 #, c-format
@@ -789,7 +789,7 @@ msgstr "$SHELL 已改變 (原為「%s」，現為「%s」)\n"
 #: src/job.c:3289 src/job.c:3474
 #, c-format
 msgid "Creating temporary batch file %s\n"
-msgstr "正在建立臨時批檔案 %s\n"
+msgstr "正在建立暫時批檔案 %s\n"
 
 #: src/job.c:3297
 #, c-format
@@ -842,7 +842,7 @@ msgstr "正從 %2$s 載入符號 %1$s\n"
 #: src/load.c:256
 #, c-format
 msgid "The 'load' operation is not supported on this platform."
-msgstr "本平台不支援「load」操作。"
+msgstr "本平台不支援「load」動作。"
 
 #: src/main.c:335
 msgid "Options:\n"
@@ -864,12 +864,12 @@ msgstr "  -C 目錄, --directory=目錄    在執行前先切換到 <目錄>。\
 
 #: src/main.c:343
 msgid "  -d                          Print lots of debugging information.\n"
-msgstr "  -d                          列印大量調校訊息。\n"
+msgstr "  -d                          列印大量除錯訊息。\n"
 
 #: src/main.c:345
 msgid ""
 "  --debug[=FLAGS]             Print various types of debugging information.\n"
-msgstr "  --debug[=旗標]               列印各種調校訊息。\n"
+msgstr "  --debug[=旗標]               列印各種除錯訊息。\n"
 
 #: src/main.c:347
 msgid ""
@@ -894,11 +894,11 @@ msgstr ""
 
 #: src/main.c:355
 msgid "  -h, --help                  Print this message and exit.\n"
-msgstr "  -h, --help                  列印該消息並退出。\n"
+msgstr "  -h, --help                  列印該訊息並離開。\n"
 
 #: src/main.c:357
 msgid "  -i, --ignore-errors         Ignore errors from recipes.\n"
-msgstr "  -i, --ignore-errors         忽略來自指令配方的錯誤。\n"
+msgstr "  -i, --ignore-errors         忽略來自指令方案的錯誤。\n"
 
 #: src/main.c:359
 msgid ""
@@ -930,7 +930,7 @@ msgstr ""
 msgid ""
 "  -L, --check-symlink-times   Use the latest mtime between symlinks and"
 " target.\n"
-msgstr "  -L, --check-symlink-times   使用軟連結及軟連結目標中修改時間較晚的一個。\n"
+msgstr "  -L, --check-symlink-times   使用符號連結及符號連結目標中修改時間較晚的一個。\n"
 
 #: src/main.c:371
 msgid ""
@@ -939,7 +939,7 @@ msgid ""
 " them.\n"
 msgstr ""
 "  -n, --just-print, --dry-run, --recon\n"
-"                              只列印指令配方，不實際執行。\n"
+"                              只列印指令方案，不實際執行。\n"
 
 #: src/main.c:374
 msgid ""
@@ -965,7 +965,7 @@ msgstr "  -p, --print-data-base       列印 make 的內部資料庫。\n"
 #: src/main.c:382
 msgid ""
 "  -q, --question              Run no recipe; exit status says if up to date.\n"
-msgstr "  -q, --question              不執行任何配方；退出狀態說明是否已全部更新。\n"
+msgstr "  -q, --question              不執行任何方案；離開狀態說明是否已全部更新。\n"
 
 #: src/main.c:384
 msgid "  -r, --no-builtin-rules      Disable the built-in implicit rules.\n"
@@ -977,11 +977,11 @@ msgstr "  -R, --no-builtin-variables  禁用內建變數設定。\n"
 
 #: src/main.c:388
 msgid "  -s, --silent, --quiet       Don't echo recipes.\n"
-msgstr "  -s, --silent, --quiet       不輸出配方指令。\n"
+msgstr "  -s, --silent, --quiet       不輸出方案指令。\n"
 
 #: src/main.c:390
 msgid "  --no-silent                 Echo recipes (disable --silent mode).\n"
-msgstr "  --no-silent                 對配方進行回顯（禁用 --silent 模式）。\n"
+msgstr "  --no-silent                 對方案進行回顯（禁用 --silent 模式）。\n"
 
 #: src/main.c:392
 msgid ""
@@ -1002,7 +1002,7 @@ msgstr "  --trace                     列印跟蹤訊息。\n"
 #: src/main.c:399
 msgid ""
 "  -v, --version               Print the version number of make and exit.\n"
-msgstr "  -v, --version               列印 make 的版本號並退出。\n"
+msgstr "  -v, --version               列印 make 的版本號並離開。\n"
 
 #: src/main.c:401
 msgid "  -w, --print-directory       Print the current directory.\n"
@@ -1035,7 +1035,7 @@ msgstr "空字串是無效的檔案名"
 #: src/main.c:754
 #, c-format
 msgid "unknown debug level specification '%s'"
-msgstr "未知的調校級別定義「%s」"
+msgstr "未知的除錯級別定義「%s」"
 
 #: src/main.c:794
 #, c-format
@@ -1045,7 +1045,7 @@ msgstr "不明輸出同步類型「%s」"
 #: src/main.c:849
 #, c-format
 msgid "%s: Interrupt/Exception caught (code = 0x%lx, addr = 0x%p)\n"
-msgstr "%s：捕獲中斷/異常 (程式碼 = 0x%lx, 地址 = 0x%p)\n"
+msgstr "%s：捕獲中斷/異常 (程式碼 = 0x%lx, 位址 = 0x%p)\n"
 
 #: src/main.c:856
 #, c-format
@@ -1060,17 +1060,17 @@ msgstr ""
 "從程式 %s 產生的未處理的異常過濾器\n"
 "異常碼 = %lx\n"
 "異常標誌 = %lx\n"
-"異常地址 = 0x%p\n"
+"異常位址 = 0x%p\n"
 
 #: src/main.c:864
 #, c-format
 msgid "Access violation: write operation at address 0x%p\n"
-msgstr "訪問衝突：地址 0x%p 處的寫操作\n"
+msgstr "存取衝突：位址 0x%p 處的寫入動作\n"
 
 #: src/main.c:865
 #, c-format
 msgid "Access violation: read operation at address 0x%p\n"
-msgstr "訪問衝突：地址 0x%p 處的讀操作\n"
+msgstr "存取衝突：位址 0x%p 處的讀取動作\n"
 
 #: src/main.c:941 src/main.c:956
 #, c-format
@@ -1124,7 +1124,7 @@ msgstr "重設為單任務模式 (-j1)。"
 #: src/main.c:2109
 #, c-format
 msgid "Symbolic links not supported: disabling -L."
-msgstr "不支援軟連結：禁用 -L。"
+msgstr "不支援符號連結：禁用 -L。"
 
 #: src/main.c:2190
 #, c-format
@@ -1287,7 +1287,7 @@ msgstr "Make 權限"
 
 #: src/misc.c:795
 msgid "Child access"
-msgstr "子進程 權限"
+msgstr "子程序 權限"
 
 #: src/output.c:97
 #, c-format
@@ -1368,7 +1368,7 @@ msgstr "創始化任務伺服器管道"
 #: src/posixos.c:119
 #, c-format
 msgid "internal error: invalid --jobserver-auth string '%s'"
-msgstr "內部錯誤：非法 --jobserver-auth 驗證字串「%s」"
+msgstr "內部錯誤：無效 --jobserver-auth 驗證字串「%s」"
 
 #: src/posixos.c:122
 #, c-format
@@ -1400,7 +1400,7 @@ msgstr "讀取任務管道"
 #: src/read.c:181
 #, c-format
 msgid "Reading makefiles...\n"
-msgstr "正在讀入 makefiles...\n"
+msgstr "正在讀入 makefile...\n"
 
 #: src/read.c:336
 #, c-format
@@ -1425,7 +1425,7 @@ msgstr " (不用理)"
 #: src/read.c:344
 #, c-format
 msgid " (no ~ expansion)"
-msgstr " (沒有 ~ 擴展)"
+msgstr " (沒有 ~ 展開)"
 
 #: src/read.c:655
 #, c-format
@@ -1450,12 +1450,12 @@ msgstr "%s: 載入失敗"
 #: src/read.c:986
 #, c-format
 msgid "recipe commences before first target"
-msgstr "配方在第一個目標前開始"
+msgstr "方案在第一個目標前開始"
 
 #: src/read.c:1035
 #, c-format
 msgid "missing rule before recipe"
-msgstr "配方之前遺漏了規則"
+msgstr "方案之前遺漏了規則"
 
 #: src/read.c:1136
 #, c-format
@@ -1470,12 +1470,12 @@ msgstr "缺失分隔符"
 #: src/read.c:1283
 #, c-format
 msgid "missing target pattern"
-msgstr "無目標匹配"
+msgstr "無目標符合"
 
 #: src/read.c:1285
 #, c-format
 msgid "multiple target patterns"
-msgstr "多個目標匹配"
+msgstr "多個目標符合"
 
 #: src/read.c:1289
 #, c-format
@@ -1525,32 +1525,32 @@ msgstr "每個條件只能有一個「else」"
 #: src/read.c:1908
 #, c-format
 msgid "Malformed target-specific variable definition"
-msgstr "畸形的針對目標的標量定義"
+msgstr "針對目標的純量定義格式錯誤"
 
 #: src/read.c:1968
 #, c-format
 msgid "prerequisites cannot be defined in recipes"
-msgstr "依賴無法在配方腳本中定義"
+msgstr "依賴無法在方案腳本中定義"
 
 #: src/read.c:1986
 #, c-format
 msgid "grouped targets must provide a recipe"
-msgstr "成組的目標必須提供一個配方"
+msgstr "成組的目標必須提供一個方案"
 
 #: src/read.c:2029
 #, c-format
 msgid "mixed implicit and static pattern rules"
-msgstr "混和的隱含和靜態模式規則"
+msgstr "混合的隱含和靜態模式規則"
 
 #: src/read.c:2052
 #, c-format
 msgid "mixed implicit and normal rules"
-msgstr "混和的隱含和普通規則"
+msgstr "混合的隱含和普通規則"
 
 #: src/read.c:2107
 #, c-format
 msgid "target '%s' doesn't match the target pattern"
-msgstr "目標「%s」不匹配目標模式"
+msgstr "目標「%s」不符合目標模式"
 
 #: src/read.c:2122 src/read.c:2168
 #, c-format
@@ -1565,12 +1565,12 @@ msgstr "目標「%s」在同一個規則中給出了多次"
 #: src/read.c:2138
 #, c-format
 msgid "warning: overriding recipe for target '%s'"
-msgstr "警告：覆蓋關於目標「%s」的配方"
+msgstr "警告：覆蓋關於目標「%s」的方案"
 
 #: src/read.c:2141
 #, c-format
 msgid "warning: ignoring old recipe for target '%s'"
-msgstr "警告：忽略關於目標「%s」的舊配方"
+msgstr "警告：忽略關於目標「%s」的舊方案"
 
 #: src/read.c:2254
 #, c-format
@@ -1661,7 +1661,7 @@ msgstr "找不到關於「%s」的隱含規則。\n"
 #: src/remake.c:515
 #, c-format
 msgid "Using default recipe for '%s'.\n"
-msgstr "使用「%s」的預設配方。\n"
+msgstr "使用「%s」的預設方案。\n"
 
 #: src/remake.c:549 src/remake.c:1088
 #, c-format
@@ -1716,7 +1716,7 @@ msgstr "目標「%s」是雙冒號目標並且沒有前提。\n"
 #: src/remake.c:789
 #, c-format
 msgid "No recipe for '%s' and no prerequisites actually changed.\n"
-msgstr "沒有關於「%s」的配方，並且沒有實際改變的前提。\n"
+msgstr "沒有關於「%s」的方案，並且沒有實際改變的前提。\n"
 
 #: src/remake.c:794
 #, c-format
@@ -1746,7 +1746,7 @@ msgstr "  忽略 VPATH 名稱「%s」。\n"
 #: src/remake.c:839
 #, c-format
 msgid "Recipe of '%s' is being run.\n"
-msgstr "「%s」的指令配方正在被執行。\n"
+msgstr "「%s」的指令方案正在被執行。\n"
 
 #: src/remake.c:846
 #, c-format
@@ -1827,11 +1827,11 @@ msgstr "中斷"
 
 #: src/signame.c:98
 msgid "Quit"
-msgstr "退出"
+msgstr "離開"
 
 #: src/signame.c:101
 msgid "Illegal Instruction"
-msgstr "非法指令"
+msgstr "無效指令"
 
 #: src/signame.c:104
 msgid "Trace/breakpoint trap"
@@ -1891,7 +1891,7 @@ msgstr "使用者定義訊號 2"
 
 #: src/signame.c:150 src/signame.c:153
 msgid "Child exited"
-msgstr "子進程已退出"
+msgstr "子程序已離開"
 
 #: src/signame.c:156
 msgid "Power failure"
@@ -2044,7 +2044,7 @@ msgstr "-e 指定的環境變數"
 
 #: src/variable.c:1668
 msgid "command line"
-msgstr "命令列"
+msgstr "指令列"
 
 #: src/variable.c:1671
 msgid "'override' directive"
@@ -2200,7 +2200,7 @@ msgstr "釋放 jobserver 訊號量：（錯誤 %ld：%s）"
 #: src/w32/w32os.c:194
 #, c-format
 msgid "semaphore or child process wait: (Error %ld: %s)"
-msgstr "訊號量或子進程等待：(錯誤 %ld：%s)"
+msgstr "訊號量或子程序等待：(錯誤 %ld：%s)"
 
 #~ msgid "%s: %s: Command not found\n"
 #~ msgstr "%s：%s：指令未找到\n"
