@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: make 4.2.91\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2019-09-16 08:26-0400\n"
-"PO-Revision-Date: 2019-10-24 21:38+0800\n"
+"PO-Revision-Date: 2019-10-24 21:39+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -58,7 +58,7 @@ msgstr "touch：「%s」上的 ar_member_touch 的返回碼不當"
 #: src/arscan.c:130
 #, c-format
 msgid "lbr$set_module() failed to extract module info, status = %d"
-msgstr "lbr$set_modules() 獲取模組訊息失敗，返回狀態 = %d"
+msgstr "lbr$set_modules() 取得模組訊息失敗，返回狀態 = %d"
 
 #: src/arscan.c:236
 #, c-format
