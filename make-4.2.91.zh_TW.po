@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: make 4.2.91\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2019-09-16 08:26-0400\n"
-"PO-Revision-Date: 2019-10-24 21:55+0800\n"
+"PO-Revision-Date: 2019-10-24 22:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -783,12 +783,12 @@ msgstr "%s[%s：%s] 錯誤 %d%s"
 #: src/job.c:665
 #, c-format
 msgid "*** Waiting for unfinished jobs...."
-msgstr "*** 正在等待未完成的任務...."
+msgstr "*** 正在等待未完成的作業...."
 
 #: src/job.c:707
 #, c-format
 msgid "Live child %p (%s) PID %s %s\n"
-msgstr "活躍子程序 %p (%s) PID %s %s\n"
+msgstr "使用中子程序 %p (%s) PID %s %s\n"
 
 #: src/job.c:709 src/job.c:903 src/job.c:1075 src/job.c:1647
 #, c-format
@@ -991,12 +991,12 @@ msgstr "  -C 目錄, --directory=目錄    在執行前先切換到 <目錄>。\
 
 #: src/main.c:343
 msgid "  -d                          Print lots of debugging information.\n"
-msgstr "  -d                          列印大量除錯訊息。\n"
+msgstr "  -d                          輸出大量除錯訊息。\n"
 
 #: src/main.c:345
 msgid ""
 "  --debug[=FLAGS]             Print various types of debugging information.\n"
-msgstr "  --debug[=旗標]               列印各種除錯訊息。\n"
+msgstr "  --debug[=旗標]               輸出各種除錯訊息。\n"
 
 #: src/main.c:347
 msgid ""
@@ -1021,7 +1021,7 @@ msgstr ""
 
 #: src/main.c:355
 msgid "  -h, --help                  Print this message and exit.\n"
-msgstr "  -h, --help                  列印該訊息並離開。\n"
+msgstr "  -h, --help                  輸出該訊息並離開。\n"
 
 #: src/main.c:357
 msgid "  -i, --ignore-errors         Ignore errors from recipes.\n"
@@ -1037,8 +1037,7 @@ msgstr "  -I 目錄, --include-dir=目錄  在 <目錄> 中搜尋被包含的 ma
 msgid ""
 "  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no "
 "arg.\n"
-msgstr ""
-"  -j [N], --jobs[=N]          同時允許 N 個任務；無參數表明允許無限個任務。\n"
+msgstr "  -j [N], --jobs[=N]          同時允許 N 個作業；無參數表明允許無限個作業。\n"
 
 #: src/main.c:364
 msgid ""
@@ -1052,7 +1051,7 @@ msgid ""
 "N.\n"
 msgstr ""
 "  -l [N], --load-average[=N], --max-load[=N]\n"
-"                              在系統負載高於 N 時不啟動多任務。\n"
+"                              在系統負載高於 N 時不啟動多作業。\n"
 
 #: src/main.c:369
 msgid ""
@@ -1069,7 +1068,7 @@ msgid ""
 "them.\n"
 msgstr ""
 "  -n, --just-print, --dry-run, --recon\n"
-"                              只列印指令方案，不實際執行。\n"
+"                              只輸出指令方案，不實際執行。\n"
 
 #: src/main.c:374
 msgid ""
@@ -1086,26 +1085,25 @@ msgid ""
 "                              Synchronize output of parallel jobs by TYPE.\n"
 msgstr ""
 "  -O[類型], --output-sync[=類型]\n"
-"                           使用 <類型> 方式同步並行任務輸出。\n"
+"                           使用 <類型> 方式同步並行作業輸出。\n"
 
 #: src/main.c:380
 msgid "  -p, --print-data-base       Print make's internal database.\n"
-msgstr "  -p, --print-data-base       列印 make 的內部資料庫。\n"
+msgstr "  -p, --print-data-base       輸出 make 的內部資料庫。\n"
 
 #: src/main.c:382
 msgid ""
 "  -q, --question              Run no recipe; exit status says if up to "
 "date.\n"
-msgstr ""
-"  -q, --question              不執行任何方案；離開狀態說明是否已全部更新。\n"
+msgstr "  -q, --question              不執行任何方案；離開狀態說明是否已全部更新。\n"
 
 #: src/main.c:384
 msgid "  -r, --no-builtin-rules      Disable the built-in implicit rules.\n"
-msgstr "  -r, --no-builtin-rules      禁用內建隱含規則。\n"
+msgstr "  -r, --no-builtin-rules      停用內建隱含規則。\n"
 
 #: src/main.c:386
 msgid "  -R, --no-builtin-variables  Disable the built-in variable settings.\n"
-msgstr "  -R, --no-builtin-variables  禁用內建變數設定。\n"
+msgstr "  -R, --no-builtin-variables  停用內建變數設定。\n"
 
 #: src/main.c:388
 msgid "  -s, --silent, --quiet       Don't echo recipes.\n"
@@ -1113,7 +1111,7 @@ msgstr "  -s, --silent, --quiet       不輸出方案指令。\n"
 
 #: src/main.c:390
 msgid "  --no-silent                 Echo recipes (disable --silent mode).\n"
-msgstr "  --no-silent                 對方案進行回顯（禁用 --silent 模式）。\n"
+msgstr "  --no-silent                 對方案進行回顯（停用 --silent 模式）。\n"
 
 #: src/main.c:392
 msgid ""
@@ -1131,16 +1129,16 @@ msgstr ""
 
 #: src/main.c:397
 msgid "  --trace                     Print tracing information.\n"
-msgstr "  --trace                     列印跟蹤訊息。\n"
+msgstr "  --trace                     輸出跟蹤訊息。\n"
 
 #: src/main.c:399
 msgid ""
 "  -v, --version               Print the version number of make and exit.\n"
-msgstr "  -v, --version               列印 make 的版本號並離開。\n"
+msgstr "  -v, --version               輸出 make 的版本號並離開。\n"
 
 #: src/main.c:401
 msgid "  -w, --print-directory       Print the current directory.\n"
-msgstr "  -w, --print-directory       列印目前目錄。\n"
+msgstr "  -w, --print-directory       輸出目前目錄。\n"
 
 #: src/main.c:403
 msgid ""
@@ -1249,17 +1247,17 @@ msgstr "警告: 子 make 中強制 -j%d: 重設 jobserver 模式。"
 #: src/main.c:2068
 #, c-format
 msgid "Parallel jobs (-j) are not supported on this platform."
-msgstr "本平台不支援並行任務 (-j)。"
+msgstr "本平台不支援並行作業 (-j)。"
 
 #: src/main.c:2069
 #, c-format
 msgid "Resetting to single job (-j1) mode."
-msgstr "重設為單任務模式 (-j1)。"
+msgstr "重設為單作業模式 (-j1)。"
 
 #: src/main.c:2109
 #, c-format
 msgid "Symbolic links not supported: disabling -L."
-msgstr "不支援符號連結：禁用 -L。"
+msgstr "不支援符號連結：停用 -L。"
 
 #: src/main.c:2190
 #, c-format
@@ -1393,7 +1391,7 @@ msgid ""
 "# Make data base, printed on %s"
 msgstr ""
 "\n"
-"# make 資料基礎，列印在 %s"
+"# make 資料基礎，輸出在 %s"
 
 #: src/main.c:3407
 #, c-format
@@ -1491,15 +1489,15 @@ msgstr "-O[類型] (--output-sync[=類型]) 並未設定入此 make 構建。"
 
 #: src/posixos.c:90
 msgid "creating jobs pipe"
-msgstr "正在建立任務管道"
+msgstr "正在建立作業管道"
 
 #: src/posixos.c:98 src/posixos.c:251
 msgid "duping jobs pipe"
-msgstr "正在複製任務管道"
+msgstr "正在複製作業管道"
 
 #: src/posixos.c:104
 msgid "init jobserver pipe"
-msgstr "創始化任務伺服器管道"
+msgstr "創始化作業伺服器管道"
 
 #: src/posixos.c:119
 #, c-format
@@ -1509,29 +1507,29 @@ msgstr "內部錯誤：無效 --jobserver-auth 驗證字串「%s」"
 #: src/posixos.c:122
 #, c-format
 msgid "Jobserver client (fds %d,%d)\n"
-msgstr "Jobserver 用戶端（檔案描述符 %d,%d）\n"
+msgstr "Jobserver 客戶端（檔案描述符 %d,%d）\n"
 
 #: src/posixos.c:138
 msgid "jobserver pipeline"
-msgstr "任務伺服器管道"
+msgstr "作業伺服器管道"
 
 #: src/posixos.c:186
 msgid "write jobserver"
-msgstr "寫入任務伺服器"
+msgstr "寫入作業伺服器"
 
 #: src/posixos.c:300
 #, c-format
 msgid "job server shut down"
-msgstr "任務伺服器關閉"
+msgstr "作業伺服器關閉"
 
 # , fuzzy
 #: src/posixos.c:303
 msgid "pselect jobs pipe"
-msgstr "pselect 任務管道"
+msgstr "pselect 作業管道"
 
 #: src/posixos.c:319 src/posixos.c:433
 msgid "read jobs pipe"
-msgstr "讀取任務管道"
+msgstr "讀取作業管道"
 
 #: src/read.c:181
 #, c-format
@@ -1596,12 +1594,12 @@ msgstr "方案之前遺漏了規則"
 #: src/read.c:1136
 #, c-format
 msgid "missing separator (did you mean TAB instead of 8 spaces?)"
-msgstr "分隔符缺失 (你大概想用 TAB，而不是八個空格)"
+msgstr "缺少分隔符 (你大概想用 TAB，而不是八個空格)"
 
 #: src/read.c:1138
 #, c-format
 msgid "missing separator"
-msgstr "缺失分隔符"
+msgstr "缺少分隔符"
 
 #: src/read.c:1283
 #, c-format
@@ -2011,8 +2009,7 @@ msgstr "%s 其他已用: 總共 = %lu B / 數量 = %lu / 平均 = %lu B\n"
 #, c-format
 msgid ""
 "%s other free: total = %lu B / max = %lu B / min = %lu B / avg = %hu B\n"
-msgstr ""
-"%s 其他空餘: 總共 = %lu B / 最大 = %lu B / 最小 = %lu B / 平均 = %hu B\n"
+msgstr "%s 其他空餘: 總共 = %lu B / 最大 = %lu B / 最小 = %lu B / 平均 = %hu B\n"
 
 #: src/strcache.c:326
 #, c-format
@@ -2177,7 +2174,7 @@ msgid ""
 "# "
 msgstr ""
 "\n"
-"# 通用搜尋路徑(「VPATH」變數)：\n"
+"# 通用搜尋路徑 (「VPATH」變數)：\n"
 "# "
 
 #: src/w32/w32os.c:44
@@ -2199,7 +2196,7 @@ msgstr "內部錯誤：無法打開 jobserver 訊號量「%s」：（錯誤 %ld�
 #: src/w32/w32os.c:82
 #, c-format
 msgid "Jobserver client (semaphore %s)\n"
-msgstr "Jobserver 用戶端（訊號量 %s）\n"
+msgstr "Jobserver 客戶端（訊號量 %s）\n"
 
 #: src/w32/w32os.c:123
 #, c-format
@@ -2214,4 +2211,4 @@ msgstr "訊號量或子程序等待：(錯誤 %ld：%s)"
 #: src/getopt.c:764
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s：不合法的選項 ─ %c\n"
+msgstr "%s：選項無效 ─ %c\n"
