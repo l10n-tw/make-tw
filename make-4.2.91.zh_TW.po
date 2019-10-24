@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: make 4.2.91\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2019-09-16 08:26-0400\n"
-"PO-Revision-Date: 2019-10-24 21:37+0800\n"
+"PO-Revision-Date: 2019-10-24 21:38+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -33,17 +33,17 @@ msgstr "試圖使用不支援的功能：「%s」"
 #: src/ar.c:123
 #, c-format
 msgid "touch archive member is not available on VMS"
-msgstr "VMS 系統上不支援 touch 歸檔成員"
+msgstr "VMS 系統上不支援 touch 封存成員"
 
 #: src/ar.c:147
 #, c-format
 msgid "touch: Archive '%s' does not exist"
-msgstr "touch：歸檔文件「%s」不存在"
+msgstr "touch：封存文件「%s」不存在"
 
 #: src/ar.c:150
 #, c-format
 msgid "touch: '%s' is not a valid archive"
-msgstr "touch：「%s」不是合法的歸檔文件"
+msgstr "touch：「%s」不是合法的封存文件"
 
 #: src/ar.c:157
 #, c-format
@@ -101,13 +101,13 @@ msgstr "*** 中斷。\n"
 #: src/commands.c:628
 #, c-format
 msgid "*** [%s] Archive member '%s' may be bogus; not deleted"
-msgstr "*** [%s] 歸檔成員「%s」可能是假的；未刪除"
+msgstr "*** [%s] 封存成員「%s」可能是假的；未刪除"
 
 # 是化學的成分，是特技！
 #: src/commands.c:632
 #, c-format
 msgid "*** Archive member '%s' may be bogus; not deleted"
-msgstr "*** 歸檔成員「%s」可能是假的；未刪除"
+msgstr "*** 封存成員「%s」可能是假的；未刪除"
 
 #: src/commands.c:646
 #, c-format
@@ -585,7 +585,7 @@ msgstr "正在為「%s」尋找隱含規則。\n"
 #: src/implicit.c:54
 #, c-format
 msgid "Looking for archive-member implicit rule for '%s'.\n"
-msgstr "正在為「%s」尋找歸檔成員隱含規則。\n"
+msgstr "正在為「%s」尋找封存成員隱含規則。\n"
 
 #: src/implicit.c:311
 #, c-format
