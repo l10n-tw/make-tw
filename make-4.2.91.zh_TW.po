@@ -68,7 +68,7 @@ msgstr "lbr$ini_control() 失敗，返回狀態 = %d"
 #: src/arscan.c:261
 #, c-format
 msgid "unable to open library '%s' to lookup member status %d"
-msgstr "無法打開庫「%s」以尋找成員，狀態 %d"
+msgstr "無法打開函式庫「%s」以尋找成員，狀態 %d"
 
 #: src/arscan.c:944
 #, c-format
