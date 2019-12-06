@@ -22,141 +22,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "X-Generator: Lokalize 19.08.2\n"
-"X-ZhConverter: 繁化姬 dict-4ac8d2ed-r906 @ 2019/10/24 21:28:21 |"
-" https://zhconvert.org\n"
+"X-ZhConverter: 繁化姬 dict-4ac8d2ed-r906 @ 2019/10/24 21:28:21 | https://zhconvert.org\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: lib/closeout.c:122
-msgid "write error"
-msgstr "寫入時發生錯誤"
-
-#: lib/siglist.h:31 src/signame.c:92
-msgid "Hangup"
-msgstr "掛斷"
-
-#: lib/siglist.h:34 src/signame.c:95
-msgid "Interrupt"
-msgstr "中止"
-
-#: lib/siglist.h:37 src/signame.c:98
-msgid "Quit"
-msgstr "結束"
-
-#: lib/siglist.h:43 src/signame.c:104
-msgid "Trace/breakpoint trap"
-msgstr "追蹤 / 斷點陷阱"
-
-#: lib/siglist.h:46 src/signame.c:109
-msgid "Aborted"
-msgstr "取消"
-
-#: lib/siglist.h:49 src/signame.c:118
-msgid "Floating point exception"
-msgstr "期望浮點數"
-
-#: lib/siglist.h:52 src/signame.c:121
-msgid "Killed"
-msgstr "強制結束"
-
-#: lib/siglist.h:55 src/signame.c:124
-msgid "Bus error"
-msgstr "匯流排錯誤"
-
-#: lib/siglist.h:58 src/signame.c:127
-msgid "Segmentation fault"
-msgstr "分割錯誤"
-
-#: lib/siglist.h:61 src/signame.c:133
-msgid "Broken pipe"
-msgstr "管線損壞"
-
-#: lib/siglist.h:64 src/signame.c:136
-msgid "Alarm clock"
-msgstr "鬧鐘"
-
-#: lib/siglist.h:67 src/signame.c:139
-msgid "Terminated"
-msgstr "終止"
-
-#: lib/siglist.h:70 src/signame.c:192
-msgid "Urgent I/O condition"
-msgstr "緊急 I/O 條件"
-
-#: lib/siglist.h:73 src/signame.c:168
-msgid "Stopped (signal)"
-msgstr "停止（信號）"
-
-#: lib/siglist.h:76 src/signame.c:159
-msgid "Stopped"
-msgstr "停止"
-
-#: lib/siglist.h:79 src/signame.c:189
-msgid "Continued"
-msgstr "繼續"
-
-#: lib/siglist.h:82 src/signame.c:150 src/signame.c:153
-msgid "Child exited"
-msgstr "子程序退出"
-
-#: lib/siglist.h:85 src/signame.c:162
-msgid "Stopped (tty input)"
-msgstr "停止（tty 輸入）"
-
-#: lib/siglist.h:88 src/signame.c:165
-msgid "Stopped (tty output)"
-msgstr "停止（tty 輸出）"
-
-#: lib/siglist.h:91 src/signame.c:199 src/signame.c:208
-msgid "I/O possible"
-msgstr "可能 I/O"
-
-#: lib/siglist.h:94 src/signame.c:171
-msgid "CPU time limit exceeded"
-msgstr "到達 CPU 時間上限"
-
-#: lib/siglist.h:97 src/signame.c:174
-msgid "File size limit exceeded"
-msgstr "到達檔案大小上限"
-
-#: lib/siglist.h:100 src/signame.c:177
-msgid "Virtual timer expired"
-msgstr "虛擬計時器過期"
-
-#: lib/siglist.h:103 src/signame.c:180
-msgid "Profiling timer expired"
-msgstr "分析計時器過期"
-
-#: lib/siglist.h:106 src/signame.c:186
-msgid "Window changed"
-msgstr "已變更視窗"
-
-#: lib/siglist.h:109 src/signame.c:142
-msgid "User defined signal 1"
-msgstr "使用者定義信號 1"
-
-#: lib/siglist.h:112 src/signame.c:145
-msgid "User defined signal 2"
-msgstr "使用者定義信號 2"
-
-#: lib/siglist.h:117 src/signame.c:115
-msgid "EMT trap"
-msgstr "EMT 陷阱"
-
-#: lib/siglist.h:120 src/signame.c:130
-msgid "Bad system call"
-msgstr "無效系統呼叫"
-
-#: lib/siglist.h:126 src/signame.c:217
-msgid "Information request"
-msgstr "資訊請求"
-
-#: lib/siglist.h:128 src/signame.c:156
-msgid "Power failure"
-msgstr "電源錯誤"
-
-#: lib/siglist.h:131 src/signame.c:211
-msgid "Resource lost"
-msgstr "資源遺失"
 
 #: src/ar.c:46
 #, c-format
@@ -655,6 +522,11 @@ msgstr "%s：無法識別的選項「--%s」\n"
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s：無法識別的選項「%c%s」\n"
 
+#: src/getopt.c:764
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s：選項無效 ─ %c\n"
+
 #: src/getopt.c:767
 #, c-format
 msgid "%s: invalid option -- %c\n"
@@ -995,8 +867,7 @@ msgid "  -d                          Print lots of debugging information.\n"
 msgstr "  -d                          輸出大量除錯訊息。\n"
 
 #: src/main.c:345
-msgid ""
-"  --debug[=FLAGS]             Print various types of debugging information.\n"
+msgid "  --debug[=FLAGS]             Print various types of debugging information.\n"
 msgstr "  --debug[=旗標]               輸出各種除錯訊息。\n"
 
 #: src/main.c:347
@@ -1008,8 +879,7 @@ msgstr ""
 "                              環境變數覆蓋 makefile 中的變數。\n"
 
 #: src/main.c:350
-msgid ""
-"  -E STRING, --eval=STRING    Evaluate STRING as a makefile statement.\n"
+msgid "  -E STRING, --eval=STRING    Evaluate STRING as a makefile statement.\n"
 msgstr "  -E 字串, --eval=字串        將 <字串> 作為 makefile 語句估值。\n"
 
 #: src/main.c:352
@@ -1035,38 +905,29 @@ msgid ""
 msgstr "  -I 目錄, --include-dir=目錄  在 <目錄> 中搜尋被包含的 makefile。\n"
 
 #: src/main.c:362
-msgid ""
-"  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no "
-"arg.\n"
+msgid "  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no arg.\n"
 msgstr "  -j [N], --jobs[=N]          同時允許 N 個作業；無參數表明允許無限個作業。\n"
 
 #: src/main.c:364
-msgid ""
-"  -k, --keep-going            Keep going when some targets can't be made.\n"
+msgid "  -k, --keep-going            Keep going when some targets can't be made.\n"
 msgstr "  -k, --keep-going            當某些目標無法製作時仍然繼續。\n"
 
 #: src/main.c:366
 msgid ""
 "  -l [N], --load-average[=N], --max-load[=N]\n"
-"                              Don't start multiple jobs unless load is below "
-"N.\n"
+"                              Don't start multiple jobs unless load is below N.\n"
 msgstr ""
 "  -l [N], --load-average[=N], --max-load[=N]\n"
 "                              在系統負載高於 N 時不啟動多作業。\n"
 
 #: src/main.c:369
-msgid ""
-"  -L, --check-symlink-times   Use the latest mtime between symlinks and "
-"target.\n"
-msgstr ""
-"  -L, --check-symlink-times   使用符號連結及符號連結目標中修改時間較晚的一"
-"個。\n"
+msgid "  -L, --check-symlink-times   Use the latest mtime between symlinks and target.\n"
+msgstr "  -L, --check-symlink-times   使用符號連結及符號連結目標中修改時間較晚的一個。\n"
 
 #: src/main.c:371
 msgid ""
 "  -n, --just-print, --dry-run, --recon\n"
-"                              Don't actually run any recipe; just print "
-"them.\n"
+"                              Don't actually run any recipe; just print them.\n"
 msgstr ""
 "  -n, --just-print, --dry-run, --recon\n"
 "                              只輸出指令方案，不實際執行。\n"
@@ -1074,8 +935,7 @@ msgstr ""
 #: src/main.c:374
 msgid ""
 "  -o FILE, --old-file=FILE, --assume-old=FILE\n"
-"                              Consider FILE to be very old and don't remake "
-"it.\n"
+"                              Consider FILE to be very old and don't remake it.\n"
 msgstr ""
 "  -o 檔案, --old-file=檔案, --assume-old=檔案\n"
 "                              將 <檔案> 當做很舊，不必重新製作。\n"
@@ -1093,9 +953,7 @@ msgid "  -p, --print-data-base       Print make's internal database.\n"
 msgstr "  -p, --print-data-base       輸出 make 的內部資料庫。\n"
 
 #: src/main.c:382
-msgid ""
-"  -q, --question              Run no recipe; exit status says if up to "
-"date.\n"
+msgid "  -q, --question              Run no recipe; exit status says if up to date.\n"
 msgstr "  -q, --question              不執行任何方案；離開狀態說明是否已全部更新。\n"
 
 #: src/main.c:384
@@ -1124,17 +982,14 @@ msgstr ""
 
 #: src/main.c:395
 msgid "  -t, --touch                 Touch targets instead of remaking them.\n"
-msgstr ""
-"  -t, --touch                 touch 目標（更新修改時間）而不是重新製作它"
-"們。\n"
+msgstr "  -t, --touch                 touch 目標（更新修改時間）而不是重新製作它們。\n"
 
 #: src/main.c:397
 msgid "  --trace                     Print tracing information.\n"
 msgstr "  --trace                     輸出跟蹤訊息。\n"
 
 #: src/main.c:399
-msgid ""
-"  -v, --version               Print the version number of make and exit.\n"
+msgid "  -v, --version               Print the version number of make and exit.\n"
 msgstr "  -v, --version               輸出 make 的版本號並離開。\n"
 
 #: src/main.c:401
@@ -1142,9 +997,7 @@ msgid "  -w, --print-directory       Print the current directory.\n"
 msgstr "  -w, --print-directory       輸出目前目錄。\n"
 
 #: src/main.c:403
-msgid ""
-"  --no-print-directory        Turn off -w, even if it was turned on "
-"implicitly.\n"
+msgid "  --no-print-directory        Turn off -w, even if it was turned on implicitly.\n"
 msgstr "  --no-print-directory        關閉 -w，即使 -w 預設開啟。\n"
 
 #: src/main.c:405
@@ -1156,9 +1009,7 @@ msgstr ""
 "                              將 <檔案> 當做最新。\n"
 
 #: src/main.c:408
-msgid ""
-"  --warn-undefined-variables  Warn when an undefined variable is "
-"referenced.\n"
+msgid "  --warn-undefined-variables  Warn when an undefined variable is referenced.\n"
 msgstr "  --warn-undefined-variables  當引用未定義變數的時候發出警告。\n"
 
 #: src/main.c:671
@@ -1218,8 +1069,7 @@ msgstr "find_and_set_shell() 路徑搜尋結果設定 default_shell = %s\n"
 
 #: src/main.c:1609
 #, c-format
-msgid ""
-"warning: jobserver unavailable: using -j1.  Add '+' to parent make rule."
+msgid "warning: jobserver unavailable: using -j1.  Add '+' to parent make rule."
 msgstr "警告: jobserver 不可用: 正使用 -j1。添加「+」到父 make 的規則。"
 
 #: src/main.c:1617
@@ -1375,13 +1225,11 @@ msgstr "%s為 %s (%s) 編譯\n"
 #: src/main.c:3376
 #, c-format
 msgid ""
-"%sLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"%sLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "%sThis is free software: you are free to change and redistribute it.\n"
 "%sThere is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"%s授權條款：GPLv3+：GNU 通用公共授權條款第 3 版或更新版本<http://gnu.org/"
-"licenses/gpl.html>。\n"
+"%s授權條款：GPLv3+：GNU 通用公共授權條款第 3 版或更新版本<http://gnu.org/licenses/gpl.html>。\n"
 "%s本軟體是自由軟體：您可以自由修改和重新發布它。\n"
 "%s在法律允許的範圍內沒有其他保證。\n"
 
@@ -1779,8 +1627,7 @@ msgstr "檔案「%s」不存在。\n"
 
 #: src/remake.c:494
 #, c-format
-msgid ""
-"*** Warning: .LOW_RESOLUTION_TIME file '%s' has a high resolution time stamp"
+msgid "*** Warning: .LOW_RESOLUTION_TIME file '%s' has a high resolution time stamp"
 msgstr "*** 警告: .LOW_RESOLUTION_TIME 檔案 `%s' 有一個高精度的的時間標誌"
 
 #: src/remake.c:507 src/remake.c:1039
@@ -1952,13 +1799,133 @@ msgstr "BUG：num_pattern_rules 出錯！%u != %u"
 msgid "unknown signal"
 msgstr "未知的訊號"
 
+#: src/signame.c:92
+msgid "Hangup"
+msgstr "掛斷"
+
+#: src/signame.c:95
+msgid "Interrupt"
+msgstr "中止"
+
+#: src/signame.c:98
+msgid "Quit"
+msgstr "結束"
+
 #: src/signame.c:101
 msgid "Illegal Instruction"
 msgstr "無效指令"
 
+#: src/signame.c:104
+msgid "Trace/breakpoint trap"
+msgstr "追蹤 / 斷點陷阱"
+
+#: src/signame.c:109
+msgid "Aborted"
+msgstr "取消"
+
 #: src/signame.c:112
 msgid "IOT trap"
 msgstr "IOT 陷阱"
+
+#: src/signame.c:115
+msgid "EMT trap"
+msgstr "EMT 陷阱"
+
+#: src/signame.c:118
+msgid "Floating point exception"
+msgstr "期望浮點數"
+
+#: src/signame.c:121
+msgid "Killed"
+msgstr "強制結束"
+
+#: src/signame.c:124
+msgid "Bus error"
+msgstr "匯流排錯誤"
+
+#: src/signame.c:127
+msgid "Segmentation fault"
+msgstr "分割錯誤"
+
+#: src/signame.c:130
+msgid "Bad system call"
+msgstr "無效系統呼叫"
+
+#: src/signame.c:133
+msgid "Broken pipe"
+msgstr "管線損壞"
+
+#: src/signame.c:136
+msgid "Alarm clock"
+msgstr "鬧鐘"
+
+#: src/signame.c:139
+msgid "Terminated"
+msgstr "終止"
+
+#: src/signame.c:142
+msgid "User defined signal 1"
+msgstr "使用者定義信號 1"
+
+#: src/signame.c:145
+msgid "User defined signal 2"
+msgstr "使用者定義信號 2"
+
+#: src/signame.c:150 src/signame.c:153
+msgid "Child exited"
+msgstr "子程序退出"
+
+#: src/signame.c:156
+msgid "Power failure"
+msgstr "電源錯誤"
+
+#: src/signame.c:159
+msgid "Stopped"
+msgstr "停止"
+
+#: src/signame.c:162
+msgid "Stopped (tty input)"
+msgstr "停止（tty 輸入）"
+
+#: src/signame.c:165
+msgid "Stopped (tty output)"
+msgstr "停止（tty 輸出）"
+
+#: src/signame.c:168
+msgid "Stopped (signal)"
+msgstr "停止（信號）"
+
+#: src/signame.c:171
+msgid "CPU time limit exceeded"
+msgstr "到達 CPU 時間上限"
+
+#: src/signame.c:174
+msgid "File size limit exceeded"
+msgstr "到達檔案大小上限"
+
+#: src/signame.c:177
+msgid "Virtual timer expired"
+msgstr "虛擬計時器過期"
+
+#: src/signame.c:180
+msgid "Profiling timer expired"
+msgstr "分析計時器過期"
+
+#: src/signame.c:186
+msgid "Window changed"
+msgstr "已變更視窗"
+
+#: src/signame.c:189
+msgid "Continued"
+msgstr "繼續"
+
+#: src/signame.c:192
+msgid "Urgent I/O condition"
+msgstr "緊急 I/O 條件"
+
+#: src/signame.c:199 src/signame.c:208
+msgid "I/O possible"
+msgstr "可能 I/O"
 
 #: src/signame.c:202
 msgid "SIGWIND"
@@ -1968,9 +1935,17 @@ msgstr "SIGWIND"
 msgid "SIGPHONE"
 msgstr "SIGPHONE"
 
+#: src/signame.c:211
+msgid "Resource lost"
+msgstr "資源遺失"
+
 #: src/signame.c:214
 msgid "Danger signal"
 msgstr "危險訊號"
+
+#: src/signame.c:217
+msgid "Information request"
+msgstr "資訊請求"
 
 #: src/signame.c:220
 msgid "Floating point co-processor not available"
@@ -1989,16 +1964,14 @@ msgstr ""
 #, c-format
 msgid ""
 "\n"
-"%s strcache buffers: %lu (%lu) / strings = %lu / storage = %lu B / avg = %lu "
-"B\n"
+"%s strcache buffers: %lu (%lu) / strings = %lu / storage = %lu B / avg = %lu B\n"
 msgstr ""
 "\n"
 "%s strcache 緩衝: %lu (%lu) / 字串 = %lu / 空間 = %lu B / 平均 = %lu B\n"
 
 #: src/strcache.c:308
 #, c-format
-msgid ""
-"%s current buf: size = %hu B / used = %hu B / count = %hu / avg = %u B\n"
+msgid "%s current buf: size = %hu B / used = %hu B / count = %hu / avg = %u B\n"
 msgstr "%s 目前緩衝: 尺寸 = %hu B / 已用 = %hu B / 數量 = %hu / 平均 = %u B\n"
 
 #: src/strcache.c:319
@@ -2008,8 +1981,7 @@ msgstr "%s 其他已用: 總共 = %lu B / 數量 = %lu / 平均 = %lu B\n"
 
 #: src/strcache.c:322
 #, c-format
-msgid ""
-"%s other free: total = %lu B / max = %lu B / min = %lu B / avg = %hu B\n"
+msgid "%s other free: total = %lu B / max = %lu B / min = %lu B / avg = %hu B\n"
 msgstr "%s 其他空餘: 總共 = %lu B / 最大 = %lu B / 最小 = %lu B / 平均 = %hu B\n"
 
 #: src/strcache.c:326
@@ -2190,8 +2162,7 @@ msgstr "正建立 jobserver 訊號量：（錯誤 %ld：%s）"
 
 #: src/w32/w32os.c:79
 #, c-format
-msgid ""
-"internal error: unable to open jobserver semaphore '%s': (Error %ld: %s)"
+msgid "internal error: unable to open jobserver semaphore '%s': (Error %ld: %s)"
 msgstr "內部錯誤：無法打開 jobserver 訊號量「%s」：（錯誤 %ld：%s）"
 
 #: src/w32/w32os.c:82
@@ -2209,7 +2180,5 @@ msgstr "釋放 jobserver 訊號量：（錯誤 %ld：%s）"
 msgid "semaphore or child process wait: (Error %ld: %s)"
 msgstr "訊號量或子程序等待：(錯誤 %ld：%s)"
 
-#: src/getopt.c:764
-#, c-format
-msgid "%s: illegal option -- %c\n"
-msgstr "%s：選項無效 ─ %c\n"
+#~ msgid "write error"
+#~ msgstr "寫入時發生錯誤"
